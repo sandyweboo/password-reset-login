@@ -22,12 +22,12 @@ if(isset($_GET["e"])){
             $mail->IsSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'sandyweboo@gmail.com';
-            $mail->Password = 'vdhstyrodkhptngg';
+            $mail->Username = 'sandywe1@gmail.com';
+            $mail->Password = 'vdhstyrodffkhptngg';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
-            $mail->setFrom('sandyweboo@gmail.com', 'Reset Password');
-            $mail->addReplyTo('sandyweboo@gmail.com', 'Reset Password');
+            $mail->setFrom('sandywe1@gmail.com', 'Reset Password');
+            $mail->addReplyTo('sandywe1@gmail.com', 'Reset Password');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = 'eShop Forgot Password Verification Code';
